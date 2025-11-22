@@ -1,252 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHOWROOM® NYC</title>
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
-    
-    <!-- Styles -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHOWROOM® NYC</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Social Preview & Icons -->
+  <meta property="og:title" content="SHOWROOM® NYC">
+  <meta property="og:description" content="Urban Luxury Redefined. Shop the latest drop.">
+  <meta property="og:image" content="https://frankbjj23.github.io/Showroom/ig-feature-1.jpg">
+  <meta property="og:url" content="https://frankbjj23.github.io/Showroom/">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/jpeg" href="showroom logo.jpg">
+  <link rel="apple-touch-icon" href="showroom logo.jpg">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- Desktop "Phone" Wrapper -->
-    <div class="mobile-wrapper">
-        
-        <!-- Navigation Overlay -->
-        <div class="nav-overlay">
-            <button class="nav-close" aria-label="Close Menu">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                </svg>
-            </button>
-            <nav class="nav-links">
-                <a href="#shop" class="nav-link">Shop</a>
-                <a href="#lookbook" class="nav-link">Lookbook</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#visit" class="nav-link">Visit</a>
-            </nav>
-        </div>
+  <!-- Desktop "Phone" Wrapper -->
+  <div class="mobile-wrapper">
 
-        <!-- Header -->
-        <header class="site-header">
-            <a href="#" class="brand">
-                <img src="showroom logo.jpg" alt="Logo" class="brand-logo">
-                <span class="brand-text">Showroom</span>
-            </a>
-            <button class="nav-toggle" aria-label="Menu">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <line x1="3" y1="12" x2="21" y2="12"></line>
-                    <line x1="3" y1="6" x2="21" y2="6"></line>
-                    <line x1="3" y1="18" x2="21" y2="18"></line>
-                </svg>
-            </button>
-        </header>
-
-        <main>
-            <!-- Hero Section -->
-            <section class="hero">
-                <img src="ig-feature-1.jpg" alt="Streetwear Fit" class="hero-bg">
-                <div class="hero-content">
-                    <span class="hero-tag">New Drop</span>
-                    <h1 class="hero-title">
-                        Urban
-                        <span>Luxury</span>
-                        Redefined
-                    </h1>
-                    <a href="#shop" class="btn-primary">
-                        Shop Collection
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                            <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                    </a>
-                </div>
-            </section>
-
-            <!-- Marquee -->
-            <div class="marquee-container">
-                <div class="marquee-content">
-                    <span class="marquee-item">New York City</span>
-                    <span class="marquee-item">Worldwide Shipping</span>
-                    <span class="marquee-item">Limited Edition</span>
-                    <span class="marquee-item">Premium Quality</span>
-                    <span class="marquee-item">Showroom 101</span>
-                    <span class="marquee-item">New York City</span>
-                    <span class="marquee-item">Worldwide Shipping</span>
-                    <span class="marquee-item">Limited Edition</span>
-                </div>
-            </div>
-
-            <!-- Shop Section -->
-            <section id="shop" class="section">
-                <div class="section-header">
-                    <h2 class="section-title">Latest<br>Arrivals</h2>
-                    <a href="#" class="section-link">View All</a>
-                </div>
-
-                <div class="product-grid">
-                    <!-- Product 1 -->
-                    <article class="product-card">
-                        <div class="product-image-wrapper">
-                            <img src="black-hoodie.jpg" alt="Black Hoodie" class="product-image">
-                        </div>
-                        <div class="product-info">
-                            <h3 class="product-title">Last Supper Zip</h3>
-                            <p class="product-price">$180.00</p>
-                            <button class="btn-add" data-item="Last Supper Zip" data-price="180">Add to Bag</button>
-                        </div>
-                    </article>
-
-                    <!-- Product 2 -->
-                    <article class="product-card">
-                        <div class="product-image-wrapper">
-                            <img src="pink-hoodie-studio.jpg" alt="Pink Hoodie" class="product-image">
-                        </div>
-                        <div class="product-info">
-                            <h3 class="product-title">Crystal Zip Pink</h3>
-                            <p class="product-price">$220.00</p>
-                            <button class="btn-add" data-item="Crystal Zip Pink" data-price="220">Add to Bag</button>
-                        </div>
-                    </article>
-
-                    <!-- Product 3 -->
-                    <article class="product-card">
-                        <div class="product-image-wrapper">
-                            <img src="hoodie-blue-front.jpg" alt="Blue Hoodie" class="product-image">
-                        </div>
-                        <div class="product-info">
-                            <h3 class="product-title">Classic Logo Blue</h3>
-                            <p class="product-price">$130.00</p>
-                            <button class="btn-add" data-item="Classic Logo Blue" data-price="130">Add to Bag</button>
-                        </div>
-                    </article>
-
-                    <!-- Product 4 -->
-                    <article class="product-card">
-                        <div class="product-image-wrapper">
-                            <img src="hoodie-navy-back.jpg" alt="Navy Hoodie" class="product-image">
-                        </div>
-                        <div class="product-info">
-                            <h3 class="product-title">Classic Logo Navy</h3>
-                            <p class="product-price">$130.00</p>
-                            <button class="btn-add" data-item="Classic Logo Navy" data-price="130">Add to Bag</button>
-                        </div>
-                    </article>
-                </div>
-            </section>
-
-            <!-- Lookbook Section -->
-            <section id="lookbook" class="section">
-                <div class="section-header">
-                    <h2 class="section-title">The<br>Lookbook</h2>
-                    <span class="section-link">Swipe →</span>
-                </div>
-
-                <div class="lookbook-carousel">
-                    <div class="lookbook-item">
-                        <img src="ig-feature-2.jpg" alt="Look 1">
-                        <div class="lookbook-caption">
-                            <h4>Street Essence</h4>
-                        </div>
-                    </div>
-                    <div class="lookbook-item">
-                        <img src="ig-feature-3.jpg" alt="Look 2">
-                        <div class="lookbook-caption">
-                            <h4>Night Vision</h4>
-                        </div>
-                    </div>
-                    <div class="lookbook-item">
-                        <img src="fit-green-bag-1.jpg" alt="Look 3">
-                        <div class="lookbook-caption">
-                            <h4>Urban Utility</h4>
-                        </div>
-                    </div>
-                    <div class="lookbook-item">
-                        <img src="pink-hoodie-rack.jpg" alt="Look 4">
-                        <div class="lookbook-caption">
-                            <h4>Studio Vibes</h4>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- About Section -->
-            <section id="about" class="about-section">
-                <h2>Brooklyn Roots.<br>Global Vision.</h2>
-                <p class="about-text">
-                    Showroom® blends NYC energy with premium fabrication. Small-batch drops, hand-finished details, and silhouettes you actually want to live in.
-                </p>
-                <a href="#shop" class="btn-primary" style="background: #fff; color: #000;">Explore Collection</a>
-            </section>
-
-            <!-- Visit Section -->
-            <section id="visit" class="section">
-                <div class="section-header">
-                    <h2 class="section-title">Visit Us</h2>
-                </div>
-                <div class="product-card" style="display: flex; align-items: center; padding: 1rem; gap: 1rem;">
-                    <img src="clothing-instore.jpg" alt="Store" style="width: 80px; height: 80px; border-radius: 8px; object-fit: cover;">
-                    <div>
-                        <h4>Showroom NYC</h4>
-                        <p style="color: #888; font-size: 0.9rem;">Brooklyn, NY</p>
-                        <a href="https://maps.google.com/?q=SHOWROOM+New+York" target="_blank" style="color: var(--accent-color); font-size: 0.9rem; margin-top: 0.5rem; display: block;">Get Directions →</a>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!-- Footer -->
-        <footer class="site-footer">
-            <div class="footer-social">
-                <a href="https://instagram.com/showroom.101" target="_blank" class="social-link" aria-label="Instagram">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                    </svg>
-                </a>
-                <a href="mailto:info@showroom.nyc" class="social-link" aria-label="Email">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                        <polyline points="22,6 12,13 2,6"></polyline>
-                    </svg>
-                </a>
-            </div>
-            <div class="footer-bottom">
-                <span>© 2025 Showroom®</span>
-                <span>All Rights Reserved</span>
-            </div>
-        </footer>
-
-        <!-- Floating Cart Button -->
-        <button class="cart-float" aria-label="View Cart">
-            <span class="cart-count cart-count-display">0</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
-                <line x1="3" y1="6" x2="21" y2="6"></line>
-                <path d="M16 10a4 4 0 0 1-8 0"></path>
-            </svg>
-        </button>
-
-        <!-- Toast Notification -->
-        <div id="toast" class="toast">
-            <div class="toast-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                </svg>
-            </div>
-            <span class="toast-message">Added to bag</span>
-        </div>
-
+    <!-- Navigation Overlay -->
+    <div class="nav-overlay">
+      <button class="nav-close" aria-label="Close Menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <nav class="nav-links">
+        <a href="#shop" class="nav-link">Shop</a>
+        <a href="#lookbook" class="nav-link">Lookbook</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#visit" class="nav-link">Visit</a>
+      </nav>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Header -->
+    <header class="site-header">
+      <a href="#" class="brand">
+        <img src="showroom logo.jpg" alt="Logo" class="brand-logo">
+        <span class="brand-text">Showroom</span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <img src="ig-feature-1.jpg" alt="Streetwear Fit" class="hero-bg">
+        <div class="hero-content">
+          <span class="hero-tag">New Drop</span>
+          <h1 class="hero-title">
+            Urban
+            <span>Luxury</span>
+            Redefined
+          </h1>
+          <a href="#shop" class="btn-primary">
+            Shop Collection
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- Marquee -->
+      <div class="marquee-container">
+        <div class="marquee-content">
+          <span class="marquee-item">New York City</span>
+          <span class="marquee-item">Worldwide Shipping</span>
+          <span class="marquee-item">Limited Edition</span>
+          <span class="marquee-item">Premium Quality</span>
+          <span class="marquee-item">Showroom 101</span>
+          <span class="marquee-item">New York City</span>
+          <span class="marquee-item">Worldwide Shipping</span>
+          <span class="marquee-item">Limited Edition</span>
+        </div>
+      </div>
+
+      <!-- Shop Section -->
+      <section id="shop" class="section">
+        <div class="section-header">
+          <h2 class="section-title">Latest<br>Arrivals</h2>
+          <a href="#" class="section-link">View All</a>
+        </div>
+
+        <div class="product-grid">
+          <!-- Product 1 -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img src="black-hoodie.jpg" alt="Black Hoodie" class="product-image">
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Last Supper Zip</h3>
+              <p class="product-price">$180.00</p>
+              <button class="btn-add" data-item="Last Supper Zip" data-price="180">Add to Bag</button>
+            </div>
+          </article>
+
+          <!-- Product 2 -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img src="pink-hoodie-studio.jpg" alt="Pink Hoodie" class="product-image">
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Crystal Zip Pink</h3>
+              <p class="product-price">$220.00</p>
+              <button class="btn-add" data-item="Crystal Zip Pink" data-price="220">Add to Bag</button>
+            </div>
+          </article>
+
+          <!-- Product 3 -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img src="hoodie-blue-front.jpg" alt="Blue Hoodie" class="product-image">
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Classic Logo Blue</h3>
+              <p class="product-price">$130.00</p>
+              <button class="btn-add" data-item="Classic Logo Blue" data-price="130">Add to Bag</button>
+            </div>
+          </article>
+
+          <!-- Product 4 -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img src="hoodie-navy-back.jpg" alt="Navy Hoodie" class="product-image">
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Classic Logo Navy</h3>
+              <p class="product-price">$130.00</p>
+              <button class="btn-add" data-item="Classic Logo Navy" data-price="130">Add to Bag</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Lookbook Section -->
+      <section id="lookbook" class="section">
+        <div class="section-header">
+          <h2 class="section-title">The<br>Lookbook</h2>
+          <span class="section-link">Swipe →</span>
+        </div>
+
+        <div class="lookbook-carousel">
+          <div class="lookbook-item">
+            <img src="ig-feature-2.jpg" alt="Look 1">
+            <div class="lookbook-caption">
+              <h4>Street Essence</h4>
+            </div>
+          </div>
+          <div class="lookbook-item">
+            <img src="ig-feature-3.jpg" alt="Look 2">
+            <div class="lookbook-caption">
+              <h4>Night Vision</h4>
+            </div>
+          </div>
+          <div class="lookbook-item">
+            <img src="fit-green-bag-1.jpg" alt="Look 3">
+            <div class="lookbook-caption">
+              <h4>Urban Utility</h4>
+            </div>
+          </div>
+          <div class="lookbook-item">
+            <img src="pink-hoodie-rack.jpg" alt="Look 4">
+            <div class="lookbook-caption">
+              <h4>Studio Vibes</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section">
+        <h2>Brooklyn Roots.<br>Global Vision.</h2>
+        <p class="about-text">
+          Showroom® blends NYC energy with premium fabrication. Small-batch drops, hand-finished details, and
+          silhouettes you actually want to live in.
+        </p>
+        <a href="#shop" class="btn-primary" style="background: #fff; color: #000;">Explore Collection</a>
+      </section>
+
+      <!-- Visit Section -->
+      <section id="visit" class="section">
+        <div class="section-header">
+          <h2 class="section-title">Visit Us</h2>
+        </div>
+        <div class="product-card" style="display: flex; align-items: center; padding: 1rem; gap: 1rem;">
+          <img src="clothing-instore.jpg" alt="Store"
+            style="width: 80px; height: 80px; border-radius: 8px; object-fit: cover;">
+          <div>
+            <h4>Showroom NYC</h4>
+            <p style="color: #888; font-size: 0.9rem;">Brooklyn, NY</p>
+            <a href="https://maps.google.com/?q=SHOWROOM+New+York" target="_blank"
+              style="color: var(--accent-color); font-size: 0.9rem; margin-top: 0.5rem; display: block;">Get Directions
+              →</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-social">
+        <a href="https://instagram.com/showroom.101" target="_blank" class="social-link" aria-label="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+        <a href="mailto:info@showroom.nyc" class="social-link" aria-label="Email">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Showroom®</span>
+        <span>All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <!-- Floating Cart Button -->
+    <button class="cart-float" aria-label="View Cart">
+      <span class="cart-count cart-count-display">0</span>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <path d="M16 10a4 4 0 0 1-8 0"></path>
+      </svg>
+    </button>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+      <div class="toast-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+      </div>
+      <span class="toast-message">Added to bag</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
